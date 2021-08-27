@@ -502,6 +502,7 @@ h2 {
 	width: 100%;
 	background-color: black;
 	transform: translateY(-800px);
+	transition: transform .5s ease;
 }
 .menu li {
 	max-width: 400px;
