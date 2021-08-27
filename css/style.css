@@ -496,7 +496,40 @@ h2 {
 }
 /* --------------------- Menu --------------------------- */
 
+.menu {
+	position: absolute;
+	height: 800px;
+	width: 100%;
+	background-color: black;
+	transform: translateY(-800px);
+}
+.menu li {
+	max-width: 400px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid red;
+}
+.menu li:hover {
+	border-bottom: 2px solid white;
+}
 
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.menu-close-button {
+	font-size: 120px;
+	text-align: right;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
 
 /* -------------------- Sectiion Hero --------------------*/
 
