@@ -536,7 +536,7 @@ h2 {
 
 .hero {
 	background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url(/img/hero-bg.png);
+		url(../img/hero-bg.png);
 	background-size: cover;
 	background-position: center;
 }
