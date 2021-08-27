@@ -641,10 +641,30 @@ h2 {
 
 /* ----------------------------- Section 6 ---------------------- */
 
+
+
 .section-6 .container {
 	padding: 0;
 }
 
 .section-6 img {
 	max-width: 100%;
+}
+
+
+/* ----------------------------- Section 6 ---------------------- */
+
+.section-7 {
+	margin: 100px 0;
+}
+
+.section-7 .container {
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.section-7 p {
+	max-width: 450px;
 }
